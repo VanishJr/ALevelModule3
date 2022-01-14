@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
+
 namespace ModuleWork
 {
     public delegate void MyDelegate();
@@ -22,14 +23,16 @@ namespace ModuleWork
             Console.ReadLine();
         }
 
-        public static void Method1()
+        static  void Method1()
         {
+
             List<int> numbers = new List<int>()
             {
                 15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
             };
 
             Console.WriteLine("---let's show the initial data array---");
+
 
             foreach (int num in numbers)
             {
@@ -40,7 +43,7 @@ namespace ModuleWork
 
         }
 
-        public static void Method2()
+        public async static void Method2()
         {
             List<int> numbers = new List<int>()
             {
@@ -59,7 +62,7 @@ namespace ModuleWork
             Console.WriteLine();
         }
 
-        public static void Method3()
+        public async static void Method3()
         {
             List<int> numbers = new List<int>()
             {
@@ -76,7 +79,7 @@ namespace ModuleWork
             }
         }
 
-        public static void Method4()
+        public async static void Method4()
         {
             List<int> numbers = new List<int>()
             {
